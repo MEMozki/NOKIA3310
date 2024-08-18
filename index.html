@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эмулятор Nokia 3310</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nokia-3310">
+        <div class="phone-body">
+            <div class="screen">
+                <canvas id="screen-canvas" width="240" height="320"></canvas>
+            </div>
+            <div class="buttons">
+                <!-- Верхние функциональные кнопки -->
+                <div class="top-buttons">
+                    <button id="button-left">Меню</button>
+                    <button id="button-right">Назад</button>
+                </div>
+                <!-- Навигационная кнопка -->
+                <div class="nav-button">
+                    <button id="nav-up">▲</button>
+                    <button id="nav-left">◄</button>
+                    <button id="nav-center">ОК</button>
+                    <button id="nav-right">►</button>
+                    <button id="nav-down">▼</button>
+                </div>
+                <!-- Набор цифр -->
+                <div class="num-pad">
+                    <button class="num-button">1</button>
+                    <button class="num-button">2</button>
+                    <button class="num-button">3</button>
+                    <button class="num-button">4</button>
+                    <button class="num-button">5</button>
+                    <button class="num-button">6</button>
+                    <button class="num-button">7</button>
+                    <button class="num-button">8</button>
+                    <button class="num-button">9</button>
+                    <button class="num-button">*</button>
+                    <button class="num-button">0</button>
+                    <button class="num-button">#</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
